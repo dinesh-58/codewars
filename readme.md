@@ -5,3 +5,4 @@
   - object with the character as the key & value is just it's repeat count. increment result only if value === 1
 
 ### Incomplete
+- [ ] [Human readable duration format](https://www.codewars.com/kata/52742f58faf5485cae000b9a/train/javascript)
