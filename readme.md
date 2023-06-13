@@ -9,3 +9,4 @@
 ### Incomplete
 - [ ] [Human readable duration format](https://www.codewars.com/kata/52742f58faf5485cae000b9a/)
 - [ ] [Common Denominators](https://www.codewars.com/kata/54d7660d2daf68c619000d95/)
+  - prob cause I used only 4 factors?
