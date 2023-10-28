@@ -9,8 +9,10 @@ var topKFrequent = function (nums, k) {
     const sortedRepeatCount = Object.values(repeatCount).sort((a,b) => b-a);
     const repeatNums = [];
 
-    for (let i = 0; i < k || i < sortedRepeatCount.length; i++) {
-        repeatNums.push(Object.keys(repeatCount).indexOf(sortedRepeatCount[i]));
+    for (let i = 0; i < k && i < sortedRepeatCount.length; i++) {
+        repeatNums.push(Object.keys(repeatCount).find(key => 
+            repeatCount[key] === sortedRepeatCount[i] && !repeatNums.includes(key)
+        ));
     }
     return repeatNums;
 };
