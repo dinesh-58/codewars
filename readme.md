@@ -18,3 +18,5 @@ Profiles:
     - prob cause I used only 4 factors?
 - [ ] [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
     - stopped cause I spent > 25 minutes
+- [ ] [Are they the "same"?](https://www.codewars.com/kata/550498447451fbbd7600041c/)
+    - some test cases fail. 
