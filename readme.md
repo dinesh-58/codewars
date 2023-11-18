@@ -20,3 +20,5 @@ Profiles:
     - stopped cause I spent > 25 minutes
 - [ ] [Are they the "same"?](https://www.codewars.com/kata/550498447451fbbd7600041c/)
     - some test cases fail. 
+- [ ] [Valid Braces](https://www.codewars.com/kata/5277c8a221e209d3f6000b56/train/typescript)
+    - need to tweak a little bit to work with strict typescript rules. instructions are in file
