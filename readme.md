@@ -22,3 +22,5 @@ Profiles:
     - stopped cause I spent > 25 minutes
 - [ ] [Are they the "same"?](https://www.codewars.com/kata/550498447451fbbd7600041c/)
     - some test cases fail. 
+- [ ] [Primes in numbers](https://www.codewars.com/kata/54d512e62a5e54c96200019e/)
+    - reduce time complexity
