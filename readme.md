@@ -24,3 +24,5 @@ Profiles:
     - some test cases fail. 
 - [ ] [Primes in numbers](https://www.codewars.com/kata/54d512e62a5e54c96200019e/)
     - reduce time complexity
+- [ ] [Duplicate Encoder](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/)
+    - didn't pass 1 tricky test. potential fix is in comments in that file
