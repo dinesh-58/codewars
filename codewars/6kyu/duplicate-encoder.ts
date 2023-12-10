@@ -1,21 +1,20 @@
 export function duplicateEncode(word: string){
     
-    let result = word;
-    for(let i=0; i<result.length; i++) {
-        let char = word[i];
-        if(char=='(' || char==')' || char==undefined) continue;
-
-        if (result.includes(char, i)) 
-            result = result.replace(new RegExp(char, 'g'), ')');
-        else result = result.replace(char, '(')
+    type charMap = {
+        [character: string] : {
+            bracket: string
+        }
     }
-    return result;
 
+    const encoder: charMap = {};
+    const lowerCaseWord = word.toLowerCase();
+    for(let i=0; i<lowerCaseWord.length; i++) {
+        let char = lowerCaseWord[i];
+        if(char == undefined) continue;  // because typescript gives error about char being possibly undefined below
+        if(Object.keys(encoder).includes(char)) continue;
 
-    // alternate idea is to create an obj like
-    // {
-    //      'a': {bracket: '('}
-    // }
-    // and then after looping thru entire string, replace characters with their bracket value.
-    // would probably pass testcase with brackets in the original string
+        encoder[char] = lowerCaseWord.includes(char, i+1) ? { bracket: ')'} : { bracket: ')'} ;
+    }
+
+    return lowerCaseWord.split('').map(c => encoder[c]?.bracket).join();
 }
