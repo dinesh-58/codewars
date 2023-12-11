@@ -13,6 +13,8 @@ Profiles:
     - try to come up with more time-efficient algorithm that passes all test cases 
 - [ ] [Decode the morse code (1/3)](https://www.codewars.com/kata/54b724efac3d5402db00065e/)
     - rewrite to be more readable?
+- [ ] [Product of consecutive Fib numbers](https://www.codewars.com/kata/5541f58a944b85ce6d00006a/)
+    - rewrite to be more efficient? ideas in comments
 
 ### Incomplete
 - [ ] [Human readable duration format](https://www.codewars.com/kata/52742f58faf5485cae000b9a/)
