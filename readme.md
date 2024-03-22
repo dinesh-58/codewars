@@ -26,4 +26,4 @@ Profiles:
     - some test cases fail. 
 - [ ] [Primes in numbers](https://www.codewars.com/kata/54d512e62a5e54c96200019e/)
     - reduce time complexity
-- [ ] [Sum of Intervals](https://www.codewars.com/kata/52b7ed099cdc285c300001cd/train/javascript). Fix this. Function doesn't run?
+- [ ] [Sum of Intervals](https://www.codewars.com/kata/52b7ed099cdc285c300001cd/train/javascript). Sample tests pass but submission fails. Doesn't show inputs for submissions as well
