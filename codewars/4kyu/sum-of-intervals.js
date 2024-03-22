@@ -35,6 +35,7 @@ function sumIntervals(intervals) {
                     Math.max(mergedIntervals[i][1], mergedIntervals[j][1])
                 ];
                 mergedIntervals.splice(j, 1);
+                isISpliced = true; // fixes overlapping intervals but increases time complexity
             }
         }
         if (!isISpliced) i++;

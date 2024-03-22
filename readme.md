@@ -15,6 +15,7 @@ Profiles:
     - rewrite to be more readable?
 - [ ] [Product of consecutive Fib numbers](https://www.codewars.com/kata/5541f58a944b85ce6d00006a/)
     - rewrite to be more efficient? ideas in comments
+- [ ] [Sum of Intervals](https://www.codewars.com/kata/52b7ed099cdc285c300001cd/train/javascript). Improve time complexity. Times out for large random tests
 
 ### Incomplete
 - [ ] [Human readable duration format](https://www.codewars.com/kata/52742f58faf5485cae000b9a/)
@@ -26,4 +27,3 @@ Profiles:
     - some test cases fail. 
 - [ ] [Primes in numbers](https://www.codewars.com/kata/54d512e62a5e54c96200019e/)
     - reduce time complexity
-- [ ] [Sum of Intervals](https://www.codewars.com/kata/52b7ed099cdc285c300001cd/train/javascript). Sample tests pass but submission fails. Doesn't show inputs for submissions as well
