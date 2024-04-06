@@ -2,19 +2,19 @@
 // date: 2024-04-05
 
 function createPhoneNumber(numbers){
-  return numbers.reduce((string, x, i) => {
-      switch(i) {
-          case 0: 
-              return '(' + x; 
-              break;
-          case 2:
-              return string + x + ') ';
-              break;
-          case 5:
-              return string + x + '-';
-              break;
-          default:
-              return string + x;
-      }
-  }, '')  
+    return numbers.reduce((string, x, i) => {
+        switch(i) {
+            case 0: 
+                return '(' + x; 
+                    break;
+                    case 2:
+                    return string + x + ') ';
+                break;
+            case 5:
+                return string + x + '-';
+                break;
+            default:
+                return string + x;
+        }
+    }, '')  
 }
